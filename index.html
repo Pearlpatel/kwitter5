@@ -1,0 +1,31 @@
+<html>
+    <title>Kwitter</title>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="style.css">
+    <body class="container">
+        <center>
+        <h1 id="header"> Kwitter</h1>
+        <br>
+        <div class="col-lg-4"></div>
+        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+            <img id="logo" src="https://media.istockphoto.com/vectors/five-sitting-business-executives-people-in-a-meeting-logo-vector-id1078838084?k=6&m=1078838084&s=170667a&w=0&h=WzUNsS4fAVYaFITNHDBPLYLOu99ysmpODgW1ss-ymLk=" class="logo">
+                <h4 >Join Kwitter today</h4>
+                <div class="form-group">
+                  <label >User Name:</label>
+        <input id="user_input" type="text" placeholder="User Name" class="form-control">
+                </div>
+                <button id="login_button" onclick="add_user()" >Log in</button>
+                <br><br>
+            </div>
+            </center>
+            <script src="login.js"></script>
+    </body>
+</html>

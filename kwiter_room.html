@@ -1,0 +1,30 @@
+<html>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+    <body>
+    <div class="container">
+    <button id="logout"onclick="logout()" >Logout</button>
+        <center>
+            <h1 id="head" class="header">	
+                Kwitter	
+            </h1>
+            <h3 class="color_white" id="welcome"></h3>
+            <div class="form-group input_div_room_page">
+                <label>#Add Room:</label>
+                <br>
+                <br>
+    <input id="room_name" type="text" placeholder="Room Name" class="form-control">
+    <br>
+            </div>
+            <br>
+        <button id="add_room_button" onclick="add_users()">Add Room </button>
+        <br>
+            <h3 class="color_white">#TRENDINGROOMS</h3>
+        <div id="output"></div>
+        </center>
+    </div>
+        <script src="room.js"></script>
+    </body>
+</html>

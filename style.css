@@ -1,0 +1,79 @@
+#header{
+    font-family: 'Shadows Into Light', cursive;
+font-size: xx-large;
+font-weight: bold;
+}
+
+#login_button{
+    background-image: linear-gradient(to right top, #3ff5f3, #54eebc, #8be27b, #c1ce3c, #f6b011);
+}
+body{
+    background-image: linear-gradient(to right top, #eb58f2, #ff3c94, #ff8031, #e7c100, #72ee44);
+    font-size: large;
+}
+#user_input{
+    border-color: black; 
+}
+#logo{
+    height: 270px;
+    width: 270px;
+    border-radius: 50%;
+}
+
+#logout
+{
+	font-size: 20px; float: right;
+}
+
+#output
+{
+	padding: 10px; width:80%;background: rgba(205,855,235,0.8);border-radius: 15px;
+}
+#head{
+    padding-left: 30px;
+    font-family: fantasy;
+    font-size: xxx-large;
+}
+#welcome{
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#add_room_button{
+   background-color: darkgrey;
+    font-size:medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#room_name{
+    border-color: black;
+    font-size: medium;
+}
+#logout{
+  background-color:darkseagreen; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+#div_mg
+{
+	position: fixed;bottom: 0px;width: 100%;
+    background-image: linear-gradient(to left, #d16ba8, #db719e, #e27895, #e5818e, #e78a89, #f09382, #f79d7b, #faa875, #feb967, #f9ce5b, #eae457, #d0fb5f);
+}
+#heading{
+	color: white;
+	font-size: larger;
+	margin-bottom: 15px;
+}
+#logout{
+border-color: black;
+background-color:lightgreen
+}
+#send_button
+{
+	margin-top: 15px;
+	width: 40%; 
+	margin-bottom: 15px;
+font-size: large;
+background-image: linear-gradient(to left, #6bd19e, #00cbbb, #00c2d9, #00b5f0, #00a4f8, #4a9afb, #738ef8, #967fef, #a079f4, #ab72f8, #b869fa, #c55ffb);
+}
+#logo_en{
+   width: 80px;
+   height: 80px;
+}
